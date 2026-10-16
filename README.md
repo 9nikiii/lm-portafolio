@@ -1,6 +1,6 @@
 # lm-portafolio
 
-Portafolio del módulo **0373 · Lenguajes de marcas y sistemas de gestión de información** (CFGS ASIR, 1.º, curso 2026-2027).
+Portafolio del módulo 0373 · Lenguajes de marcas y sistemas de gestión de información
 
 Aquí se irán guardando las prácticas del módulo.
 
@@ -11,6 +11,7 @@ lm-portafolio/
 ├── index.html      ← página de inicio
 ├── css/estilos.css ← estilos
 ├── js/app.js       ← muestra la fecha de hoy
+├── img/favicon.svg ← icono de la pestaña
 ├── README.md
 └── .gitignore
 ```
