@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BiciRuta</title>
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header>
+  <img src="img/logo_biciruta.png" alt="Logotipo de BiciRuta" width="160">
+  <button id="boton-menu">Menú</button>
+  <nav><ul id="menu"><li>Tienda</li><li>Taller</li><li>Alquiler</li></ul></nav>
+</header>
+<main>
+  <h1>Bicicletas y accesorios</h1>
+  <div class="producto"><h2>Bici Urbana U100</h2><p class="precio">389,00 €</p><button class="btn-anadir" data-producto="Bici Urbana U100">Añadir</button></div>
+  <div class="producto"><h2>Casco Urban M</h2><p class="precio oferta">39,90 €</p><button class="btn-anadir" data-producto="Casco Urban M">Añadir</button></div>
+  <div class="producto"><h2>Candado U Pro</h2><p class="precio">29,95 €</p><button class="btn-anadir" data-producto="Candado U Pro">Añadir</button></div>
+  <section id="ofertas" class="ofertas">
+    <h2>Ofertas</h2>
+    <p>Casco Urban M por solo <span class="oferta">39,90 €</span>. ¡Aprovecha mientras duren las existencias!</p>
+  </section>
+  <p>Productos en el carrito: <span id="contador">0</span></p>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>
