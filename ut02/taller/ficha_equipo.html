@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ficha técnica del equipo ARA1ALUMNO19 del aula A1 para el inventario: procesador, memoria, almacenamiento, red y software.">
+    <title>Ficha técnica · Equipo ARA1ALUMNO19 · Inventario del aula</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ficha técnica del equipo ARA1ALUMNO19</h1>
+      <p>Inventario del aula A1 · CFGS ASIR · Curso 2026-2027</p>
+      <nav>
+        <p>Ir a:</p>
+        <ul>
+          <li><a href="#identificacion">Identificación</a></li>
+          <li><a href="#hardware">Hardware</a></li>
+          <li><a href="#red">Red</a></li>
+          <li><a href="#mantenimiento">Mantenimiento</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="identificacion">
+        <h2>Identificación</h2>
+        <figure>
+          <img src="img/pc_aula.svg" alt="Esquema de la torre del equipo ARA1ALUMNO19 vista de frente" width="200" height="240">
+          <figcaption>Torre del equipo (ilustración).</figcaption>
+        </figure>
+        <dl>
+          <dt>Nombre del equipo</dt>
+          <dd class="dato">ARA1ALUMNO19</dd>
+          <dt>Fabricante de la placa</dt>
+          <dd class="dato">Micro-Star International (MSI)</dd>
+          <dt>Modelo de placa base</dt>
+          <dd class="dato">PRO H610M-E DDR4 (MS-7D48)</dd>
+          <dt>Sistema operativo</dt>
+          <dd class="dato">Windows 11 Pro (versión 10.0.26200)</dd>
+        </dl>
+      </section>
+
+      <section id="hardware">
+        <h2>Hardware</h2>
+        <ul>
+          <li><strong>Procesador:</strong> Intel Core i5-13400 (13.ª generación), <span class="dato">10&nbsp;núcleos / 16&nbsp;hilos</span></li>
+          <li><strong>Memoria RAM:</strong> <span class="dato">16&nbsp;GB</span> DDR4</li>
+          <li><strong>Almacenamiento:</strong> SSD Crucial BX500 de <span class="dato">240&nbsp;GB</span></li>
+          <li><strong>Gráficos:</strong> Intel UHD Graphics 730 (integrada)</li>
+        </ul>
+        <p>Más información en la <a href="https://www.msi.com/Motherboard/PRO-H610M-E-DDR4" target="_blank" rel="noopener noreferrer">página oficial de la placa en la web de MSI</a> (se abre en una pestaña nueva).</p>
+      </section>
+
+      <section id="red">
+        <h2>Red</h2>
+        <dl>
+          <dt>Tarjeta de red</dt>
+          <dd>Realtek PCIe GbE Family Controller</dd>
+          <dt>Velocidad del enlace</dt>
+          <dd class="dato">1&nbsp;Gbps</dd>
+          <dt>Dirección MAC</dt>
+          <dd class="dato">D8-43-AE-71-79-7D</dd>
+        </dl>
+      </section>
+
+      <section id="mantenimiento">
+        <h2>Mantenimiento</h2>
+        <h3>Procedimiento de limpieza (en este orden)</h3>
+        <ol>
+          <li>Apagar el equipo y desconectar el cable de alimentación.</li>
+          <li>Abrir la tapa lateral de la torre.</li>
+          <li>Limpiar el polvo de ventiladores y disipador con aire comprimido.</li>
+          <li>Cerrar la torre, conectar y comprobar que arranca.</li>
+        </ol>
+        <p><a href="#identificacion">Volver a la identificación del equipo</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Ficha elaborada para el inventario del aula. Datos obtenidos con PowerShell (<code>Get-CimInstance</code>).</p>
+    </footer>
+  </body>
+</html>

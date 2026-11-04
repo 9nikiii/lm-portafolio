@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- Declara que el documento es HTML5 (evita el "modo quirks" del navegador) -->
+<html lang="es">
+  <!-- lang="es": idioma principal de la página (lectores de pantalla, buscadores, traductores) -->
+  <head>
+    <!-- Codificación de caracteres: permite tildes, ñ, €, ¿ y ¡ sin errores -->
+    <meta charset="UTF-8">
+    <!-- Adapta el ancho de la página al ancho del dispositivo (imprescindible en el móvil) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Resumen que muestran los buscadores bajo el título del resultado (SEO) -->
+    <meta name="description" content="Taller de bicicletas urbanas, de montaña y eléctricas en Madrid. Revisiones, reparaciones y puesta a punto con cita previa.">
+    <!-- Título de la pestaña, de los marcadores y del resultado en el buscador -->
+    <title>Taller BiciRuta · Reparación y mantenimiento de bicicletas</title>
+    <!-- Ampliación: datos estructurados Schema.org (BicycleStore) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BicycleStore",
+        "name": "Taller BiciRuta",
+        "description": "Reparación y mantenimiento de bicicletas urbanas, de montaña y eléctricas.",
+        "image": "img/taller.jpg",
+        "logo": "img/logo_biciruta.png",
+        "telephone": "+34915550123",
+        "email": "taller@biciruta.example",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle del Pedal, 12",
+          "postalCode": "28010",
+          "addressLocality": "Madrid",
+          "addressCountry": "ES"
+        },
+        "openingHours": ["Mo-Fr 09:00-14:00", "Mo-Fr 17:00-20:00", "Sa 10:00-14:00"]
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo_biciruta.png" alt="BiciRuta" width="160" height="40">
+      <h1>Taller BiciRuta</h1>
+      <p>Reparación y mantenimiento de bicicletas urbanas, de montaña y eléctricas.</p>
+      <nav>
+        <p>Ir a:</p>
+        <ul>
+          <li><a href="#servicios">Servicios y precios</a></li>
+          <li><a href="#revision">Cómo es una revisión</a></li>
+          <li><a href="#horario">Horario</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="quienes-somos">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos un equipo de tres mecánicos con más de diez años de experiencia. Trabajamos con recambios originales y te damos presupuesto antes de empezar cualquier reparación.</p>
+        <p><strong>Importante: ninguna reparación se hace sin tu aprobación del presupuesto.</strong></p>
+        <figure>
+          <img src="img/taller.jpg" alt="Ilustración del taller BiciRuta: una llave de mecánico sobre tres bancos de trabajo" width="400" height="300">
+          <figcaption>Nuestro taller en Madrid.</figcaption>
+        </figure>
+      </section>
+
+      <section id="servicios">
+        <h2>Servicios y precios (IVA incluido)</h2>
+        <ul>
+          <li><strong>Revisión básica:</strong> ajuste de frenos y cambios, presión y engrase de cadena. <span class="precio">25,00&nbsp;€</span></li>
+          <li><strong>Revisión completa:</strong> la básica más centrado de ruedas, revisión de rodamientos y limpieza. <span class="precio">49,00&nbsp;€</span></li>
+          <li><strong>Cambio de cámara:</strong> <span class="precio">8,00&nbsp;€</span> más el precio de la cámara.</li>
+          <li><strong>Diagnóstico de bicicleta eléctrica</strong> (batería, motor y controlador): <span class="precio">35,00&nbsp;€</span></li>
+        </ul>
+      </section>
+
+      <section id="revision">
+        <h2>Cómo es una revisión</h2>
+        <ol>
+          <li>Recepción de la bicicleta y entrevista con el cliente.</li>
+          <li>Diagnóstico y presupuesto.</li>
+          <li>Reparación, una vez aprobado el presupuesto.</li>
+          <li>Prueba en rodillo y entrega.</li>
+        </ol>
+
+        <h3>Consejos de mantenimiento</h3>
+        <p>Revisa la presión de las ruedas cada dos semanas. Limpia y engrasa la cadena cada 300&nbsp;km (o después de rodar con lluvia).</p>
+        <p>Recuerda lo que repite nuestro jefe de taller: <q lang="en">a clean chain is a happy chain</q>.</p>
+      </section>
+
+      <section id="horario">
+        <h2>Horario</h2>
+        <dl>
+          <dt>Lunes a viernes</dt>
+          <dd>9:00–14:00 y 17:00–20:00</dd>
+          <dt>Sábados</dt>
+          <dd>10:00–14:00</dd>
+          <dt>Domingos y festivos</dt>
+          <dd>Cerrado</dd>
+        </dl>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <address>
+          <p>Teléfono: <a href="tel:+34915550123">91 555 01 23</a></p>
+          <p>Correo: <a href="mailto:taller@biciruta.example?subject=Cita%20en%20el%20taller">taller@biciruta.example</a></p>
+          <p>Dirección: Calle del Pedal, 12 · 28010 Madrid</p>
+        </address>
+        <p><a href="https://www.openstreetmap.org/search?query=Madrid" target="_blank" rel="noopener noreferrer">Cómo llegar (mapa en OpenStreetMap, se abre en una pestaña nueva)</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="index.html">Volver a la tienda</a></p>
+    </footer>
+  </body>
+</html>
