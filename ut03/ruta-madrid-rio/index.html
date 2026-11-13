@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ruta en bici por Madrid Río: etapas, distancias, vídeo con subtítulos e inscripción a la salida en grupo.">
+  <title>Ruta en bici por Madrid Río</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido principal</a>
+
+<header class="cabecera">
+  <img src="img/logo_biciruta.png" alt="BiciRuta" width="160" height="40">
+  <nav aria-label="Principal">
+    <ul class="menu">
+      <li><a href="#titulo-video">La ruta</a></li>
+      <li><a href="#titulo-etapas">Etapas</a></li>
+      <li><a href="#titulo-salida">Salida en grupo</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="contenedor">
+  <main id="contenido" tabindex="-1">
+    <h1>Ruta en bici por Madrid Río</h1>
+    <p>Un paseo llano y sin coches por el parque que recorre la orilla del Manzanares, desde el Puente del Rey hasta el Nudo Sur. Es la ruta que más hago los fines de semana.</p>
+
+    <section aria-labelledby="titulo-video">
+      <h2 id="titulo-video">La ruta en 12 segundos</h2>
+      <figure>
+        <video controls preload="metadata" width="640" height="360" poster="img/ruta_rio_poster.jpg">
+          <source src="media/ruta_rio.mp4" type="video/mp4">
+          <track kind="captions" src="media/ruta_rio.es.vtt" srclang="es" label="Español" default>
+          <p>Tu navegador no puede reproducir el vídeo. Puedes <a href="media/ruta_rio.mp4">descargar el vídeo de la ruta (MP4, 12 s)</a>.</p>
+        </video>
+        <figcaption>Resumen en vídeo de la ruta junto al río, con subtítulos en español.</figcaption>
+      </figure>
+    </section>
+
+    <section aria-labelledby="titulo-etapas">
+      <h2 id="titulo-etapas">Etapas y distancias</h2>
+      <table class="tarifas">
+        <caption>Etapas de la ruta con distancia aproximada y tiempo a ritmo de paseo</caption>
+        <thead>
+          <tr>
+            <th scope="col">Tramo</th>
+            <th scope="col">Distancia</th>
+            <th scope="col">Tiempo</th>
+            <th scope="col">Qué ver</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Puente del Rey → Puente de Segovia</th>
+            <td>1,2 km</td>
+            <td>6 min</td>
+            <td>Vistas del Palacio Real</td>
+          </tr>
+          <tr>
+            <th scope="row">Puente de Segovia → Puente de Toledo</th>
+            <td>1,8 km</td>
+            <td>9 min</td>
+            <td>Salón de Pinos</td>
+          </tr>
+          <tr>
+            <th scope="row">Puente de Toledo → Matadero</th>
+            <td>1,0 km</td>
+            <td>5 min</td>
+            <td>Puente de Arganzuela</td>
+          </tr>
+          <tr>
+            <th scope="row">Matadero → Nudo Sur</th>
+            <td>2,5 km</td>
+            <td>13 min</td>
+            <td>Playa urbana y fuentes</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td>6,5 km</td>
+            <td>33 min</td>
+            <td>Distancias aproximadas</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <article aria-labelledby="titulo-bici">
+      <h2 id="titulo-bici">Qué bici llevar</h2>
+      <img class="foto"
+           src="img/bici_urbana-400.jpg"
+           srcset="img/bici_urbana-400.jpg 400w, img/bici_urbana-800.jpg 800w, img/bici_urbana-1200.jpg 1200w"
+           sizes="(min-width: 700px) 300px, 100vw"
+           width="400" height="300" loading="lazy"
+           alt="Bicicleta urbana de paseo con cuadro de tubo recto, sillín y manillar elevados.">
+      <p>Al ser una ruta llana y asfaltada, basta con una bici urbana: no hacen falta marchas ni suspensión. Lleva agua, luces si vuelves de noche y un candado para parar en Matadero.</p>
+    </article>
+  </main>
+
+  <aside class="lateral" aria-labelledby="titulo-salida">
+    <h2 id="titulo-salida">Salida en grupo</h2>
+    <p>Hacemos la ruta juntos el primer domingo de cada mes a las 10:00.</p>
+    <form id="form-boletin">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" autocomplete="given-name" required>
+      <label for="correo">Correo electrónico</label>
+      <input type="email" id="correo" name="correo" autocomplete="email" required>
+      <button type="submit">Apuntarme</button>
+    </form>
+    <p id="mensaje-boletin" role="status"></p>
+  </aside>
+</div>
+
+<footer class="pie">
+  <p>Ruta propuesta por Nicolas Marcos Bueno · CFGS ASIR 1.º · Actualizada el <time datetime="2026-11-13">13/11/2026</time></p>
+</footer>
+
+<script src="js/salida.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; margin: 0; color: #333; }
+.cabecera { background: #152A1D; padding: 16px; }
+.menu a { color: #4a6b55; }
+.contenido { padding: 16px; }
+.titulo-grande { font-size: 32px; font-weight: bold; }
+.titulo-mediano { font-size: 24px; font-weight: bold; margin-top: 24px; }
+.titulo-pequeno { font-size: 18px; font-weight: bold; }
+.texto { color: #aaaaaa; }
+.bici { display: inline-block; width: 300px; vertical-align: top; }
+.lateral { background: #F4EAD8; padding: 12px; margin-top: 24px; }
+.boton { display: inline-block; background: #E6945A; color: #fff; padding: 8px 16px; cursor: pointer; }
+a:focus, input:focus { outline: none; }
+.pie { background: #152A1D; color: #2f4a38; padding: 12px; font-size: 12px; }
