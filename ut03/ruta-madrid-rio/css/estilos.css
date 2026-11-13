@@ -70,8 +70,7 @@ figcaption { font-size: 14px; margin-top: 4px; }
 
 /* Pie */
 .pie { background: var(--verde); color: var(--crema); padding: 12px 16px; font-size: 14px; }
-/* Color y fondo en el propio párrafo: así DevTools puede calcular la ratio de contraste (12,75:1) */
-.pie p { margin: 0; color: #F4EAD8; background: #152A1D; }
+.pie p { margin: 0; }
 
 /* Foto de la bici: 300 px desde 700 px de ancho, todo el ancho por debajo (igual que sizes) */
 .foto { width: 100%; height: auto; display: block; }
